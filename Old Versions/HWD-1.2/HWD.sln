@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWD", "HWD.csproj", "{4BBC5940-0428-4263-A894-00F1F6F9A3DC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HWDInstall", "..\HWDInstall\HWDInstall.vdproj", "{61CB225C-C9C7-46E1-8F1C-7ABEDA7032A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4BBC5940-0428-4263-A894-00F1F6F9A3DC}.Debug.ActiveCfg = Debug|.NET
+		{4BBC5940-0428-4263-A894-00F1F6F9A3DC}.Debug.Build.0 = Debug|.NET
+		{4BBC5940-0428-4263-A894-00F1F6F9A3DC}.Release.ActiveCfg = Release|.NET
+		{4BBC5940-0428-4263-A894-00F1F6F9A3DC}.Release.Build.0 = Release|.NET
+		{61CB225C-C9C7-46E1-8F1C-7ABEDA7032A3}.Debug.ActiveCfg = Debug
+		{61CB225C-C9C7-46E1-8F1C-7ABEDA7032A3}.Release.ActiveCfg = Release
+		{61CB225C-C9C7-46E1-8F1C-7ABEDA7032A3}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

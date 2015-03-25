@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="userData" targetNamespace="http://www.tempuri.org/userData.xsd" xmlns:mstns="http://www.tempuri.org/userData.xsd"
+	xmlns="http://www.tempuri.org/userData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="userData" msdata:IsDataSet="true" msdata:Locale="es-MX">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="LWD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IDLocation" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="LocationName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="KWD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IDKind" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="KindName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HWD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ComputerName" type="xs:string" />
+							<xs:element name="OS" type="xs:string" minOccurs="0" />
+							<xs:element name="Username" type="xs:string" minOccurs="0" />
+							<xs:element name="Manufacturer" type="xs:string" minOccurs="0" />
+							<xs:element name="Model" type="xs:string" minOccurs="0" />
+							<xs:element name="SerialNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="RAM" type="xs:string" minOccurs="0" />
+							<xs:element name="Processor" type="xs:string" minOccurs="0" />
+							<xs:element name="IDKind" type="xs:int" minOccurs="0" />
+							<xs:element name="IDLocation" type="xs:int" minOccurs="0" />
+							<xs:element name="Status" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Notes" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HWDC">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ComputerName" type="xs:string" />
+							<xs:element name="OS" type="xs:string" minOccurs="0" />
+							<xs:element name="Username" type="xs:string" minOccurs="0" />
+							<xs:element name="Manufacturer" type="xs:string" minOccurs="0" />
+							<xs:element name="Model" type="xs:string" minOccurs="0" />
+							<xs:element name="SerialNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="RAM" type="xs:string" minOccurs="0" />
+							<xs:element name="Processor" type="xs:string" minOccurs="0" />
+							<xs:element name="Kind" type="xs:string" minOccurs="0" />
+							<xs:element name="Location" type="xs:string" minOccurs="0" />
+							<xs:element name="Status" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Notes" type="xs:string" minOccurs="0" />
+							<xs:element name="Printers" type="xs:string" minOccurs="0" />
+							<xs:element name="Processors" type="xs:string" minOccurs="0" />
+							<xs:element name="NICs" type="xs:string" minOccurs="0" />
+							<xs:element name="HDs" type="xs:string" minOccurs="0" />
+							<xs:element name="CDs" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MWD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ComputerName" type="xs:string" minOccurs="0" />
+							<xs:element name="UserName" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCaption" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:LWD" />
+			<xs:field xpath="mstns:IDLocation" />
+		</xs:unique>
+		<xs:unique name="KWD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:KWD" />
+			<xs:field xpath="mstns:IDKind" />
+		</xs:unique>
+		<xs:unique name="HWD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:HWD" />
+			<xs:field xpath="mstns:ComputerName" />
+		</xs:unique>
+		<xs:unique name="HWDC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:HWDC" />
+			<xs:field xpath="mstns:ComputerName" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

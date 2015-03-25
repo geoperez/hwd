@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="labelHostRange">
+		<value>Rango IP o nombre de maquina:</value>
+	</data>
+	<data name="radioEnglish">
+		<value>Inglés</value>
+	</data>
+	<data name="radioSpanish">
+		<value>Español</value>
+	</data>
+	<data name="button1">
+		<value>Buscar</value>
+	</data>
+	<data name="button2">
+		<value>Guardar datos</value>
+	</data>
+	<data name="tabPage1">
+		<value>Escanear sistemas</value>
+	</data>
+	<data name="button3">
+		<value>Parar</value>
+	</data>
+	<data name="lblPass">
+		<value>Contraseña:</value>
+	</data>
+	<data name="lblUser">
+		<value>Usuario:</value>
+	</data>
+	<data name="chkLogin">
+		<value>Usar otro usuario</value>
+	</data>
+	<data name="tabPage5">
+		<value>Opciones</value>
+	</data>
+	<data name="label6">
+		<value>Fecha definición Parches:</value>
+	</data>
+	<data name="button12">
+		<value>Obtener definición</value>
+	</data>
+	<data name="chkAutoSave">
+		<value>Autoguardar datos</value>
+	</data>
+	<data name="button9">
+		<value>Guardar opciones</value>
+	</data>
+	<data name="tabPage4">
+		<value>Filtro</value>
+	</data>
+	<data name="groupBox1">
+		<value>Expresión</value>
+	</data>
+	<data name="label3">
+		<value>Operador</value>
+	</data>
+	<data name="label2">
+		<value>Campo</value>
+	</data>
+	<data name="label4">
+		<value>Cadena</value>
+	</data>
+	<data name="button8">
+		<value>Limpiar</value>
+	</data>
+	<data name="button7">
+		<value>Aplicar</value>
+	</data>
+	<data name="tabPage2">
+		<value>Registro</value>
+	</data>
+	<data name="button5">
+		<value>Limpiar</value>
+	</data>
+	<data name="tabPage3">
+		<value>Reportes</value>
+	</data>
+	<data name="button11">
+		<value>Reporteador</value>
+	</data>
+	<data name="button6">
+		<value>Exportar XML</value>
+	</data>
+	<data name="tabPage6">
+		<value>Acerca de</value>
+	</data>
+	<data name="label7">
+		<value>Lenguaje</value>
+	</data>
+	<data name="dbutton2">
+		<value>Escanear &amp;Software</value>
+	</data>
+	<data name="dlabel12">
+		<value>Localidad:</value>
+	</data>
+	<data name="dlabel6">
+		<value>Notas:</value>
+	</data>
+	<data name="dlabel4">
+		<value>Tipo:</value>
+	</data>
+	<data name="dbtnCancel">
+		<value>Cancelar</value>
+	</data>
+	<data name="dbtnReport">
+		<value>Reporte</value>
+	</data>
+	<data name="dtabPage3">
+		<value>Más Info</value>
+	</data>
+	<data name="dtabPage5">
+		<value>Desempeño</value>
+	</data>
+	<data name="dtabPage8">
+		<value>Parches</value>
+	</data>
+	<data name="dtabPage4">
+		<value>Servicios</value>
+	</data>
+	<data name="dtabPage6">
+		<value>Compartidos</value>
+	</data>
+	<data name="dtabPage9">
+		<value>Eventos</value>
+	</data>
+	<data name="dtabPage7">
+		<value>Puertos</value>
+	</data>
+	<data name="dlabel10">
+		<value>Uso de CPU</value>
+	</data>
+	<data name="dlabel8">
+		<value>Uso de memoria</value>
+	</data>
+	<data name="dbutton6">
+		<value>Ac&amp;tivar</value>
+	</data>
+	<data name="ddataGrid1">
+		<value>Software Instalado</value>
+	</data>
+	<data name="ddataGrid2">
+		<value>Parches para instalar</value>
+	</data>
+	<data name="dmenuItem1">
+		<value>Instalar...</value>
+	</data>
+	<data name="dbutton9">
+		<value>Obtener parches</value>
+	</data>
+	<data name="dcolumnHeader1">
+		<value>Servicio</value>
+	</data>
+	<data name="dcolumnHeader2">
+		<value>Modo inicio</value>
+	</data>
+	<data name="dcolumnHeader4">
+		<value>Cuenta</value>
+	</data>
+	<data name="dbutton7">
+		<value>Obtener servicios</value>
+	</data>
+	<data name="dbutton8">
+		<value>Obtener carpetas</value>
+	</data>
+	<data name="dcolumnHeader5">
+		<value>Nombre compartido</value>
+	</data>
+	<data name="dcolumnHeader6">
+		<value>Path</value>
+	</data>
+	<data name="dcolumnHeader7">
+		<value>Tipo</value>
+	</data>
+	<data name="dcolumnHeader8">
+		<value>Comentarios</value>
+	</data>
+	<data name="dmenuItem2">
+		<value>Explorar</value>
+	</data>
+	<data name="menuItem1">
+		<value>Detalles</value>
+	</data>
+	<data name="menuItem3">
+		<value>Eliminar</value>
+	</data>
+	<data name="dcolumnHeader10">
+		<value>Codigo</value>
+	</data>
+	<data name="dcolumnHeader12">
+		<value>Origen</value>
+	</data>
+	<data name="dcolumnHeader20">
+		<value>Mensaje</value>
+	</data>
+	<data name="dcolumnHeader13">
+		<value>Puerto</value>
+	</data>
+	<data name="dcolumnHeader16">
+		<value>Nombre Puerto</value>
+	</data>
+	<data name="dcolumnHeader17">
+		<value>Descripcion</value>
+	</data>
+	<data name="dcolumnHeader18">
+		<value>Tiempo</value>
+	</data>
+</root>

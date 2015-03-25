@@ -1,0 +1,1 @@
+mcs *.cs -out:hwd.exe -r:"C:\Program Files\Common Files\Gtk#\gdk-sharp.dll" -r:"C:\Program Files\Common Files\Gtk#\pango-sharp.dll" -r:"C:\Program Files\Common Files\Gtk#\gtk-sharp.dll" -r:"C:\Program Files\Common Files\Gtk#\glib-sharp.dll" -r:System.Data

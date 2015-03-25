@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="labelHostRange">
+		<value>Host Range or Machine Name:</value>
+	</data>
+	<data name="radioEnglish">
+		<value>English</value>
+	</data>
+	<data name="radioSpanish">
+		<value>Spanish</value>
+	</data>
+	<data name="button1">
+		<value>Look up</value>
+	</data>
+	<data name="button2">
+		<value>Save Data</value>
+	</data>
+	<data name="tabPage1">
+		<value>Scan Systems</value>
+	</data>
+	<data name="button3">
+		<value>Stop</value>
+	</data>
+	<data name="lblPass">
+		<value>Password:</value>
+	</data>
+	<data name="lblUser">
+		<value>User:</value>
+	</data>
+	<data name="chkLogin">
+		<value>Use another login</value>
+	</data>
+	<data name="tabPage5">
+		<value>Options</value>
+	</data>
+	<data name="label6">
+		<value>Hotfixes definition date:</value>
+	</data>
+	<data name="button12">
+		<value>Get Definition</value>
+	</data>
+	<data name="chkAutoSave">
+		<value>AutoSave Data</value>
+	</data>
+	<data name="button9">
+		<value>Save Options</value>
+	</data>
+	<data name="tabPage4">
+		<value>Filter</value>
+	</data>
+	<data name="groupBox1">
+		<value>Expression Builder</value>
+	</data>
+	<data name="label3">
+		<value>Operator</value>
+	</data>
+	<data name="label2">
+		<value>Field</value>
+	</data>
+	<data name="label4">
+		<value>String</value>
+	</data>
+	<data name="button8">
+		<value>Clear Filters</value>
+	</data>
+	<data name="button7">
+		<value>Apply Filters</value>
+	</data>
+	<data name="tabPage2">
+		<value>Error Log</value>
+	</data>
+	<data name="button5">
+		<value>Clear Log</value>
+	</data>
+	<data name="tabPage3">
+		<value>Reports</value>
+	</data>
+	<data name="button11">
+		<value>Reporter</value>
+	</data>
+	<data name="button6">
+		<value>Export XML</value>
+	</data>
+	<data name="tabPage6">
+		<value>About..</value>
+	</data>
+	<data name="label7">
+		<value>Language</value>
+	</data>
+	<data name="dbutton2">
+		<value>Scan &amp;Software</value>
+	</data>
+	<data name="dlabel12">
+		<value>Location:</value>
+	</data>
+	<data name="dlabel6">
+		<value>Notes:</value>
+	</data>
+	<data name="dlabel4">
+		<value>Kind:</value>
+	</data>
+	<data name="dbtnCancel">
+		<value>Cancel</value>
+	</data>
+	<data name="dbtnReport">
+		<value>Report</value>
+	</data>
+	<data name="dtabPage3">
+		<value>Processes</value>
+	</data>
+	<data name="dtabPage5">
+		<value>Performance</value>
+	</data>
+	<data name="dtabPage8">
+		<value>Hotfixes</value>
+	</data>
+	<data name="dtabPage4">
+		<value>Services</value>
+	</data>
+	<data name="dtabPage6">
+		<value>Shared Items</value>
+	</data>
+	<data name="dtabPage9">
+		<value>Event Log</value>
+	</data>
+	<data name="dtabPage7">
+		<value>Ports</value>
+	</data>
+	<data name="dlabel10">
+		<value>CPU Usage</value>
+	</data>
+	<data name="dlabel8">
+		<value>Memory Usage</value>
+	</data>
+	<data name="dbutton6">
+		<value>Ac&amp;tivate</value>
+	</data>
+	<data name="ddataGrid1">
+		<value>Installed Software</value>
+	</data>
+	<data name="ddataGrid2">
+		<value>Hotfixes to Install</value>
+	</data>
+	<data name="dmenuItem1">
+		<value>Install...</value>
+	</data>
+	<data name="dbutton9">
+		<value>Get Hotfixes</value>
+	</data>
+	<data name="dcolumnHeader1">
+		<value>Service</value>
+	</data>
+	<data name="dcolumnHeader2">
+		<value>Start Mode</value>
+	</data>
+	<data name="dcolumnHeader4">
+		<value>Account</value>
+	</data>
+	<data name="dbutton7">
+		<value>Get Services</value>
+	</data>
+	<data name="dbutton8">
+		<value>Get Items</value>
+	</data>
+	<data name="dcolumnHeader5">
+		<value>Shared Name</value>
+	</data>
+	<data name="dcolumnHeader6">
+		<value>Path</value>
+	</data>
+	<data name="dcolumnHeader7">
+		<value>Type</value>
+	</data>
+	<data name="dcolumnHeader8">
+		<value>Comments</value>
+	</data>
+	<data name="dmenuItem2">
+		<value>Explore</value>
+	</data>
+	<data name="menuItem1">
+		<value>Details</value>
+	</data>
+	<data name="menuItem3">
+		<value>Delete</value>
+	</data>
+	<data name="dcolumnHeader10">
+		<value>Event Code</value>
+	</data>
+	<data name="dcolumnHeader12">
+		<value>Source</value>
+	</data>
+	<data name="dcolumnHeader20">
+		<value>Message</value>
+	</data>
+	<data name="dcolumnHeader13">
+		<value>Port</value>
+	</data>
+	<data name="dcolumnHeader16">
+		<value>Port Name</value>
+	</data>
+	<data name="dcolumnHeader17">
+		<value>Description</value>
+	</data>
+	<data name="dcolumnHeader18">
+		<value>Time Elapsed</value>
+	</data>
+	<data name="dbutton4">
+		<value>Scan System</value>
+	</data>
+	<data name="rbutton1">
+		<value>Scan</value>
+	</data>
+	<data name="rbutton2">
+		<value>Preview</value>
+	</data>
+</root>

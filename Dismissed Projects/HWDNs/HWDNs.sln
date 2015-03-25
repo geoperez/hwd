@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWDNs", "HWDNs.csproj", "{2375C3C8-046E-4229-8744-FDD5F03688EC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = $/
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:GotDotNet\u0020Workspaces
+		CanCheckoutShared = false
+		SolutionUniqueID = {1D78CD1D-B098-4EC6-B0CD-8CCA99079051}
+		SccProjectUniqueName1 = HWDNs.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2375C3C8-046E-4229-8744-FDD5F03688EC}.Debug.ActiveCfg = Debug|.NET
+		{2375C3C8-046E-4229-8744-FDD5F03688EC}.Debug.Build.0 = Debug|.NET
+		{2375C3C8-046E-4229-8744-FDD5F03688EC}.Release.ActiveCfg = Release|.NET
+		{2375C3C8-046E-4229-8744-FDD5F03688EC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

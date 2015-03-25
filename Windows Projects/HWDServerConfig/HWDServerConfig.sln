@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWDServerConfig", "HWDServerConfig.csproj", "{C111AF61-5816-44B4-A39C-825FD0688AC0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C111AF61-5816-44B4-A39C-825FD0688AC0}.Debug.ActiveCfg = Debug|.NET
+		{C111AF61-5816-44B4-A39C-825FD0688AC0}.Debug.Build.0 = Debug|.NET
+		{C111AF61-5816-44B4-A39C-825FD0688AC0}.Release.ActiveCfg = Release|.NET
+		{C111AF61-5816-44B4-A39C-825FD0688AC0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

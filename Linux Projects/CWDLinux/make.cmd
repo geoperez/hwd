@@ -1,0 +1,1 @@
+mcs cwd.cs -r:"C:\Program Files\Common Files\Gtk#\gtk-sharp.dll" -r:"C:\Program Files\Common Files\Gtk#\glade-sharp.dll" -r:"C:\Program Files\Common Files\Gtk#\glib-sharp.dll"
